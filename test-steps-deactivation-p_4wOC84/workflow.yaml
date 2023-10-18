@@ -1,0 +1,12 @@
+schema: workflow/2022.04
+name: Test Steps & Deactivation
+settings:
+  error_notification: true
+triggers:
+- id: sub_keoUmy
+steps:
+- namespace: code
+  runtime: nodejs18.x
+  uses: "./code/entry.js"
+  note: "# Test Note"
+
